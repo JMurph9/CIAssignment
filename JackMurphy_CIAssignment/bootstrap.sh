@@ -21,7 +21,7 @@ sudo update-alternatives --config java
 
 #install maven
 sudo tar zxvf maven.tar.gz
-sudo update-alternatives --install /usr/bin/mvn mvn /opt/apache-mavan-3.3.9/bin/mvn 100
+sudo update-alternatives --install /usr/bin/mvn mvn /opt/apache-maven-3.3.9/bin/mvn 100
 
 #install git
 sudo apt-get install -y git
